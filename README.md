@@ -10,8 +10,8 @@ Before running this API script, it is important to change the JSONFile variable 
 
 This API essentially takes a provided JSON file as the backend data source. Users may interact with this API locally (http://127.0.0.1:5000/) on their machines once the script has been executed.
 
-This API contains one endpoint: http://127.0.0.1:5000/api/v1/parking/pricer
-To communicate with this endpoint, you must use the following parameters: StartDatetime, EndDatetime.
-The datetimes provided to this endpoint must be in ISO-8601 format and include timezones (Example: 2019-03-25 02:17:46-0500).
+This API contains one endpoint: http://127.0.0.1:5000/api/v1/parking/pricer.
+ To communicate with this endpoint, you must use the following parameters: StartDatetime, EndDatetime.
+ The datetimes provided to this endpoint must be in ISO-8601 format and include timezones (Example: 2019-03-25 02:17:46-0500).
 
 If you run into any issues when testing this API, see the on-screen error handling to assist you with the most likely cause of the issue.
